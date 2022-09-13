@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+canvas {
+  background-image: url("../textures/space.webp");
+  /* background-color: #1cc4da; */
+}

@@ -1,0 +1,674 @@
+/* Responsive */
+/* ~1400  ~1150  ~950 ~550*/
+/* mobile*laptop 930px */
+@media (min-width: 1401px) {
+    .laptopArea {
+        display: block;
+    }
+
+    .mobileArea {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    .laptopArea {
+        display: block;
+    }
+
+    .mobileArea {
+        display: none;
+    }
+
+    .section-1 {
+        height: 1020px;
+    }
+
+    .floating-bg {
+        top: -120vw;
+    }
+
+    .wcth {
+        width: 90vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    .wcth3 {
+        height: 50px;
+        max-width: 90vw;
+        display: block;
+        margin-top: 22%;
+        font-size: 3.5vw;
+        transition: 0.5s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wcth4 {
+        max-width: fit-content;
+        margin-top: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5vw;
+        transition: 0.5s;
+    }
+
+    .wcth4 strong {
+
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .wcth5 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px;
+        max-width: fit-content;
+        margin-top: 3%;
+        font-size: 2.8vw;
+        transition: 0.5s;
+    }
+
+    /* max-width: 1400px */
+    .glassMorphism-body {
+        height: 4200px;
+    }
+
+    .glassMorphism-container {
+        display: block;
+    }
+
+    .glassMorphism-box .glassMorphism-content {
+        width: 85vw;
+        height: 900px;
+        left: auto;
+        right: auto;
+        display: block;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .glassMorphism-box:nth-child(1) {
+        margin-top: 100px;
+    }
+
+    .glassMorphism-box:nth-child(n+2) {
+        margin-top: 550px;
+    }
+
+    .glassMorphism-box:hover span:before {
+        top: -150px;
+        left: -200px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: -190px;
+        right: -200px;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* max-width: 1400px */
+
+    .customer-img {
+        width: 60rem;
+        height: 40rem;
+    }
+
+
+
+    .glassMorphism-box .glassMorphism-content a {
+        font-size: 2.8em;
+    }
+
+    .customer {
+        width: 65vw;
+        height: 750px;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        margin: 5rem 10rem;
+
+    }
+
+    .copyright {
+        margin: 5rem 0 4rem 0;
+    }
+}
+
+
+
+@media (max-width: 930px) {
+    html {
+        font-size: 50%;
+    }
+
+    .laptopArea {
+        display: none;
+    }
+
+    .mobileArea {
+        display: block;
+    }
+
+    .section-1 {
+        height: 920px;
+    }
+
+    /* Media 930px */
+    .floating-bg {
+        height: 120vw;
+    }
+
+    .water-content {
+        position: relative;
+        width: 90vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    .wcth {
+        width: 90vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    .wcth3 {
+        height: 50px;
+        max-width: 90vw;
+        display: block;
+        margin-top: 20%;
+        font-size: 6vw;
+        transition: 0.5s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wcth4 {
+        max-width: fit-content;
+        margin-top: 28%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2.5vw;
+        transition: 0.5s;
+    }
+
+    .wcth4 strong {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .wcth5 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px;
+        max-width: fit-content;
+        margin-top: 7%;
+        font-size: 5vw;
+        transition: 0.5s;
+    }
+
+    /* Media 930px */
+
+    .mobileNav {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100vw;
+        height: 100px;
+        filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.1));
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+    }
+
+
+    .mobileNav-slot {
+        flex-basis: 19.9%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background: #3044a5;
+        justify-content: center;
+    }
+
+    .mobileNav-link {
+        width: fit-content;
+        height: 25px;
+        line-height: 1.5;
+        align-items: center;
+        color: #fff;
+        border-radius: 50rem;
+        padding: 0.5rem 0.5rem;
+        transition: 0.3s all;
+    }
+
+    /* Media 930px */
+
+    .mobileNav-link:hover {
+        transition: 0.3s all;
+        background: rgba(31, 31, 31, 0.1);
+    }
+
+    .round-top-left {
+        border-top-left-radius: 15px;
+    }
+
+    .round-top-right {
+        border-top-right-radius: 15px;
+    }
+
+    .floating-bg {
+        top: -90vw;
+    }
+
+    .glassMorphism-body {
+        height: 3700px;
+    }
+
+    .glassMorphism-container {
+        display: block;
+    }
+
+    /* Media 930px */
+
+    .glassMorphism-box .glassMorphism-content {
+        width: 85vw;
+        height: 850px;
+        left: auto;
+        right: auto;
+        display: block;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .glassMorphism-box:nth-child(1) {
+        margin-top: 80px;
+    }
+
+    .glassMorphism-box:nth-child(n+2) {
+        margin-top: 450px;
+    }
+
+    .glassMorphism-box:hover span:before {
+        top: -150px;
+        left: -65px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: -130px;
+        right: -15px;
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Media 930px */
+
+    .customer-img {
+        width: 35rem;
+        height: 18rem;
+    }
+    .glassMorphism-content p {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+    .glassMorphism-box .glassMorphism-content p {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+
+    .customer {
+        width: 45vw;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        margin-top: 5px;
+    }
+
+    .copyrightTextMobile {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .copyrightText {
+        height: 15rem;
+    }
+
+    /* Media 930px */
+
+    .scroll-up-btn {
+        width: 5.5rem;
+        height: 5.5rem;
+        background-color: #3044a5;
+        position: fixed;
+        z-index: 20;
+        bottom: 13rem;
+        right: 5rem;
+        border-radius: 50%;
+        font-size: 1.6rem;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.5s;
+    }
+}
+
+footer .footer-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 45%;
+    }
+
+    .laptopArea {
+        display: none;
+    }
+
+    .mobileArea {
+        display: block;
+    }
+
+    .section-1 {
+        height: 450px;
+    }
+
+    .floating-bg {
+        top: -110vw;
+    }
+
+    .water-content {
+        position: relative;
+        width: 90vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    /* Media 550px */
+    .wcth {
+        width: 90vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        margin-top: -5%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Bellota Text',
+            cursive;
+        font-weight: 400;
+    }
+
+    .wcth3 {
+        height: 50px;
+        max-width: 90vw;
+        display: block;
+        margin-top: 10%;
+        font-size: 6vw;
+        transition: 0.5s;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wcth4 {
+        max-width: fit-content;
+        margin-top: 18%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5vw;
+        transition: 0.5s;
+    }
+
+    .wcth4 strong {
+
+        font-size: 2.2rem;
+        font-weight: 900;
+    }
+
+    .wcth5 {
+        margin-left: auto;
+        margin-right: auto;
+        height: 10px;
+        max-width: fit-content;
+        margin-top: 3%;
+        font-size: 1.8vw;
+        transition: 0.5s;
+    }
+
+    /* media 550px */
+    /* Navigation */
+    .mobileNav {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 100vw;
+        height: 50px;
+        filter: drop-shadow(0 0 5px rgba(31, 31, 31, 0.1));
+        position: fixed;
+        bottom: 0;
+        z-index: 10;
+    }
+
+
+    .mobileNav-slot {
+        flex-basis: 19.9%;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background: #3044a5;
+        justify-content: center;
+    }
+
+    .mobileNav-link {
+        width: fit-content;
+        height: 25px;
+        line-height: 1.5;
+        align-items: center;
+        color: #fff;
+        border-radius: 50rem;
+        padding: 0.5rem 0.5rem;
+        transition: 0.3s all;
+    }
+
+    /* media 550px */
+
+    .mobileNav-link:hover {
+        transition: 0.3s all;
+        background: rgba(31, 31, 31, 0.1);
+    }
+
+    .round-top-left {
+        border-top-left-radius: 15px;
+    }
+
+    .round-top-right {
+        border-top-right-radius: 15px;
+    }
+
+    /* End Of Navigation */
+
+    /* GlassMorphism */
+    .glassMorphism_appBody {
+        height: 1000px;
+    }
+
+    .app_title {
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .app_date {
+        /* width: 83%; */
+        padding: unset;
+    }
+    .app_text {
+        /* width: 64%; */
+        margin: 0 auto;
+        text-align: left;
+    }
+    .app_img {
+    }
+    .app_img img {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+
+
+    }
+    .glassMorphism-body {
+        height: 2300px;
+    }
+
+    .glassMorphism-container {
+        display: block;
+    }
+
+    .glassMorphism-box .glassMorphism-content {
+        width: 90vw;
+        height: 450px;
+        left: auto;
+        right: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .glassMorphism-box:nth-child(1) {
+        margin-top: 1px;
+    }
+
+    .glassMorphism-box:nth-child(n+2) {
+        margin-top: 80px;
+    }
+
+    .glassMorphism-box:hover span:before {
+        top: -45px;
+        left: -15px;
+    }
+
+    .glassMorphism-box:hover span:after {
+        bottom: 2px;
+        right: -7px;
+    }
+    .glassMorphism-content p {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    .glassMorphism-box .glassMorphism-content p {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+
+    .customer {
+        width: 70vw;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+
+    .glassMorphism-box:hover .glassMorphism-content {
+        left: 0;
+        padding: 0;
+    }
+
+    .copyrightTextMobile {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .copyrightText {
+        height: 70px;
+    }
+
+    .scroll-up-btn {
+        width: 5rem;
+        height: 5rem;
+        background-color: #3044a5;
+        position: fixed;
+        z-index: 20;
+        bottom: 10rem;
+        right: 5rem;
+        border-radius: 50%;
+        font-size: 1.6rem;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 0.5s;
+    }
+}
+
+@media (max-width: 991px) {
+    footer {
+        padding: 40px;
+    }
+
+    footer .footer-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .copyrightText {
+        padding: 5px 40px;
+    }
+}
+
+
+
+/* End of Responsive */
